@@ -1,4 +1,61 @@
-- permerive
+- primitive
   change by value
-- non permetive
+  changing value will take own memory
+  .number
+  .string
+  .boolean
+  .null 
+  .undefined
+- non primtive
   change by refrence
+  change by refrence will not take own memory
+  .object
+  .array
+  .function
+  .date
+  .regx
+- object.is
+  .Object.is(5, 5); // true
+  .Object.is('5', 5); // false
+  .Object.is(0, -0); // false
+  .Object.is(NaN, NaN); // true
+- what if we need to have the key and the value separately?
+- the == will only compare the value
+  .for exmaple the == will be false here
+- the === will also compare the data type
+  .for exmaple 10 === "10" will be true here
+- loop statements
+  .for
+  .for in
+  .for off
+  .break
+  .continue
+  .do while
+  .while
+  .conditional statement
+  .if else
+  .switch
+- keys collection
+  .structured collections of data that store values and provide methods for easily accessing them.
+- map
+  .weak map
+- set
+  .st weak
+- exception handling
+  .thorw statement
+   .The throw statement defines a custom error.
+  .try 
+   .The try statement defines a code block to run (to try).
+  .catch
+   .The catch statement defines a code block to handle any error.
+  .finally
+   .The finally statement defines a code block to run regardless of the result.
+
+
+  
+
+
+
+
+
+- how to pass the value and object key?
