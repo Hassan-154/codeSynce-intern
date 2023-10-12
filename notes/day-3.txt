@@ -1,0 +1,57 @@
+- differnce between some and every array
+- see how the some and every array work with different type elements
+  . create string naming array to check
+- find array
+  .any first elment that pass the test
+- find array index
+- array.form
+  .seprate each character of array
+  .same with numbers
+- the key method
+  .it will give the index of the element
+- the entries method
+  .the it will give the index with the element next to it.
+- hoisitng
+  .Hoisting is JavaScript's default behavior of moving declarations to the top.
+- value reference
+  .change by value is permitive.
+  .change by refrence dot is non permetive.
+- variable scobe
+  .block
+  .function
+  .global
+- BigInt
+  .used to store big interger number   
+- build in object
+  .array
+  .date
+  .math
+  .string
+- explicit type casting
+  .a type of conversion which is explicitly defined within a program
+- implicit
+  .conversion of data types without losing its original meaning. 
+- structured data
+  .arrays
+  .objects
+  .or any other structured data format
+- JSON
+- loops and iterations
+  .for statement
+  .for in
+   .x of person show the index
+  .for of
+   .x of person directly show the element
+  .do while
+   .run until the condition is true
+
+  
+  
+  
+ 
+
+
+
+
+
+- see the difference between 3 and 4 argument?

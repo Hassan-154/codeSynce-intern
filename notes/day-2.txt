@@ -1,0 +1,23 @@
+- foreach
+- how to not use foreach seprately
+- how the argument of foreach function works
+- for each and for loop difference
+- break
+- continue
+- return
+- add element in array using push
+- add element using length
+- adding high index can create undefined holes in the array
+- sorting an Array/alphabatically
+- array filter
+- array reduce
+- the every array method
+- array some method
+- array index of
+- array lastIndexOf()
+- some array types are remaining will do it tomorrow INSHALLAH
+- JS math
+- JS Random/ generate random number
+- JS Floor/ use to round of the numbers
+- a Proper Random Function
+

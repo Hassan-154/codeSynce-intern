@@ -1,0 +1,12 @@
+{
+  "name": "office-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./day4.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
