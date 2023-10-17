@@ -19,7 +19,6 @@
   .Object.is('5', 5); // false
   .Object.is(0, -0); // false
   .Object.is(NaN, NaN); // true
-- what if we need to have the key and the value separately?
 - the == will only compare the value
   .for exmaple the == will be false here
 - the === will also compare the data type
@@ -39,8 +38,10 @@
   .structured collections of data that store values and provide methods for easily accessing them.
 - map
   .weak map
+- differecne between object and map
+  . in the object the key vlaue is ristricted to data type but in the map the data type is not restricted:
 - set
-  .st weak
+  .set weak
 - exception handling
   .thorw statement
    .The throw statement defines a custom error.
@@ -52,7 +53,12 @@
    .The finally statement defines a code block to run regardless of the result.
 
 
-  
+
+
+
+
+
+
 
 
 

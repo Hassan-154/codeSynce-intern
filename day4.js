@@ -112,6 +112,7 @@ try {
   let m = 700;
   const result = m / 12;
   console.log(result);
+  throw new Error("An error occurred");
 } catch (err) {
   console.log("An error message:", err.message);
 }

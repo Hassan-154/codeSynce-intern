@@ -1,0 +1,41 @@
+- utilizing error object
+  .when an error object provides the names and the message property depnding on the error type
+- try and catch
+  .the try will only work inside the one block{}
+  .for example {{console.log(hassan)}} inside second block the try will not work.
+- the finally will run regardless of any result
+- throw statement
+  .the throw statement will allow us to create the custom error?
+  .remaing example
+- default parameter
+- rest parameter
+  .the rest parameter will work with infinite argument: for example function fun(...args)
+- arrow function allow us to write the shorter function
+  .arrow function also have default return
+- assignment operator
+  .Assignment operators assign values to JavaScript variables.
+  .like assign value: X = 5;
+- comparison operator
+  . 5 <= X;
+  .Comparison operators are used in logical statements to determine equality or difference between variables or values.
+  .X == 5 etc.. .
+- airthmatic operator
+  .Arithmetic operators perform arithmetic on numbers (literals or variables).
+  .like addition
+  .subtraction etc.. .
+- Logical operators are used to determine the logic between variables or values.
+  .for example (x < 10 && y > 1)
+- string operators
+  "hassan" + "ali"
+- conditional operator
+  .isNumber? '23' : '30'; like in react js used to hide or show the div.
+- comma operator
+  .let x = 10;
+   let y = (x++, x + 1);
+  . x=11, y=12
+- unary operator
+  .x++ etc
+- setTimeOut
+- setInterval
+- fetch
+
