@@ -1,0 +1,15 @@
+- Asynchronous
+  .Asynchronous is a non-blocking architecture, so the execution of one task isn't dependent on another. 
+- Synchronous
+  .Synchronous is a blocking architecture, so the execution of each operation depends on completing the one before it.
+- promises
+  .Promise object contains both the producing code and calls to the consuming code:
+   .Pending, result is undefined
+   .Fulfilled, result is valued
+   .Rejected,  result will be error
+- fetch
+  .create promise
+  .use then to take response
+  .covert json to final api using then after json like res.json().then pass the argument to show the result.
+- async / await
+  .its like .then .catch
