@@ -66,4 +66,3 @@ function myDisplayer(some) {
   //call function
   networkData();
 
-

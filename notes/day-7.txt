@@ -1,0 +1,26 @@
+- how the asynchronous related to promise:
+  .Inside an async function, you can use the await keyword before a call to a function
+   that returns a promise.This makes the code wait at that point until the promise is settled,
+   at which point the fulfilled value of the promise is treated as a return value, or the rejected'
+   value is thrown.
+  .settimeout is asynchronousis function the timer function will not pause execution of other functions in the functions stack
+- what is callback?
+  .calling function inside another function is called a callback function:
+  .pratcie the relationship between tow function using a callback function
+- what is callback hell?
+  .nested callbacks stacked below one another forming a pyramid structure.
+- so the solution of callback is promise.
+- a promise is a good way to handle asynchronous operations
+  .what promise do?
+   .its take instruction like this that do this, then do this, then do this, so its like a proper format in clean way.
+   .first of all the promise will create, that I am gonna serve you icecream.
+   .then it will go to pending stage.. . untill the customer order
+   .reslove/reject
+   .if resolve.then do this.then do this/ this also called promise channing
+   .if reject.catch.(error) / the catch will only work when our promise will rejected
+   .finally is the final reuslt that will work in bother reject or resolve.
+- the relationship between async/await and promises:
+- async/await
+  -better way to write promises:
+
+  
