@@ -1,0 +1,7 @@
+- reverse string / done
+- find character number, that how many times a character exist in an array /done
+- use exios to fetch data from api
+  .Axios is a Javascript library used to make HTTP requests from node. js or XMLHttpRequests from the browser.
+- API definantion:
+  .Application programming interface.
+  
