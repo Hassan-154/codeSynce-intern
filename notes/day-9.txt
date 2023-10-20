@@ -1,0 +1,11 @@
+- chess game task.
+  -give input as an function argument:
+  -access the number
+  -check if numebr is even/odd using reminder operation
+- do the same with ascii table.
+  .ASCII stands for American Standard Code for Information Interchange.
+- again start the road map.
+- async / await
+  - we need three things 
+
+
