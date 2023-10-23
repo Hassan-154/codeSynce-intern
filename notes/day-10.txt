@@ -1,0 +1,41 @@
+- single thread
+  .the execution of an entire task from beginning to end without interruption.
+- asynchronous
+  .fetch
+   .callback
+    def: A callback is a function passed as an argument to another function.
+   .callback hell
+    def: nested callbacks stacked below one another forming a pyramid structure.
+   .promise
+    def: success or rejection of function.
+   .async/await
+    .makes it easier to write promises.
+    .async keyword use before function makes the function return promise.
+    .await keyword make the program wait untill the promise is reolved.
+- pass by value:
+  .passing the value of the variable as an argument
+- pass by refrecne: 
+  .a method of passing the address of an argument 
+  .arrays objects are non permitve
+- hoisting
+  .default behavior of moving declarations to the top.
+- Shallow Copy vs Deep copy
+  .shoallow copy
+   .means that only the value will be copy not the location
+   .we can use the shallow copy method in 2 way
+   .by object assign method Object.assign( {}, objName )
+   .by spread method {...objName}
+  .deep copy
+   .all levels of the object will be copied, this is true copy.
+   .let copyNameObj = JSON.parse(JSON.stringify(nameObj))  / 
+   .first change the ojject into json format
+   .and than convert back into new object
+   .this method used to make sure that only the copy of the object will change.   
+   .if we we declare function in the object that will no be resolved.
+- what is lodash? 
+  -to show function
+- next day question?
+  delete object property?
+
+
+   
