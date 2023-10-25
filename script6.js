@@ -44,14 +44,14 @@ console.log(person)
 
 
 
-var button  = document.querySelector('#button')
- button.addEventListener("click", function(){
-  //get element by id method
-  //we can only access the first id element only if we have multiple id
+  var button  = document.querySelector('#button')
+   button.addEventListener("click", function(){
+   //get element by id method
+   //we can only access the first id element only if we have multiple id
   document.getElementById('fname').innerHTML = person.fname
-  document.querySelector('#lname').innerHTML = person.lname
-  document.querySelector('location1').innerHTML = person.address.location1
- })
+   document.querySelector('#lname').innerHTML = person.lname
+   document.querySelector('location1').innerHTML = person.address.location1
+  })
 
 
 
