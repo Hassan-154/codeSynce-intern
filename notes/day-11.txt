@@ -1,0 +1,26 @@
+- delete object property in javascript.. ?
+  .by delete keyword
+- hosing
+  .default behaviour of declartion to top
+   .the var keyword
+    .var keyword can be declare after it has been used
+   .The let and const Keywords
+    .hoisted to top but not initialize
+    .aware of keyword but it will not use utill is has not been declared
+    .using let variable before the declare will give the refrence error
+    .the variable will be in dead zone from the start of the block untill it declared.
+    .using const keyword before it use, this will give an syntex error:
+- javascript only hoisted declartion not initializing
+  .for example
+   .let x; /support
+   .y = 9 /no support
+- use strict mood
+- browser api
+- dom
+  
+  
+  
+
+  
+  
+  
