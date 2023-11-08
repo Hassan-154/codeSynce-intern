@@ -1,0 +1,115 @@
+- save email and password on local storage
+  .set and get items using hook
+  .
+import '../style/login.css'
+import { useState, useEffect } from 'react'
+import { redirect } from "react-router-dom";
+function LoginPage() {
+
+  //to keep track on user input
+  const [email, setEmail] = useState('');
+  const [pass, setPass] = useState('');
+  const [disable, setDisable] = useState(true);
+  const [validEmail, setValidEmail] = useState(false);
+  const [validPass, setValidPass] = useState(false);
+  //to call the function if information is true
+  let auth = false;
+  //email validation using regEx
+  const emailPattern = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  const passwordPattern = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+
+  useEffect(() => {
+    //means something exit in placeholder
+    if(email !== '' && pass !== '' )
+    {
+      setDisable(false);
+      if(emailPattern.test(email))
+      {
+        setValidEmail(true)
+        console.log("email pattern correct.. .")
+      }
+      else
+      {
+        setValidEmail(false)
+        console.log("email pattern wrong.. .")
+      }
+    }
+    //means there is nothing in the placeholder
+    if(email == '' || pass == '' )
+    {
+      setDisable(true);
+    }
+  }, [email, pass] );
+ 
+  function loginUser()
+  {
+    if(emailPattern.test(email))
+    {
+      auth = true;
+      setValidEmail(false)
+    }
+    else{
+      console.log("please put a valid email: ")
+      auth = false;
+      setValidEmail(true)
+    }
+    if(passwordPattern.test(pass))
+    {
+      auth = true;
+      setValidPass(false)
+    }
+    else
+    {
+      console.log("please put a valid password: ")
+      auth = false;
+      setValidPass(true)
+    }
+    if( auth == true && auth == true )
+    {
+      console.log("both the email and password is true: ")
+      //here call the function to store login info:
+      SignIn();
+
+    }
+    else
+    {
+      console.log("please correct your email or password: ")
+    }
+  }
+
+  //function to store login info into local storage.
+  function SignIn()
+  {
+    localStorage.setItem( 'userEmail', email );
+    localStorage.setItem( 'userPassword', pass );
+    redirect("/layout");
+    console.log('because user put the right email and pass so I am called: ')
+  }
+  //function to clear the local storage
+  function signOut() {
+    console.log("I am called to clear the local storage: ")
+    localStorage.clear()
+  }
+  return (
+    <div className="login">
+    <div className="login__content">
+    {/* heading */}
+      <h1>Login Page</h1>
+      {/* input email & password */}
+      <div className='input__field'>
+        <label>Email:</label>
+        <input onChange={ e => setEmail(e.target.value) } type='email' className={validEmail ? 'input redOutline' : 'input whiteOutline'}/>
+        <label>Password:</label>
+        <input onChange={ e => setPass(e.target.value)} type="password" className={validPass ? 'input redOutline' : 'input whiteOutline'}/>
+      </div>
+      {/* sign in button */}
+      <div className='button__container'>
+      <button  className={disable ? 'hide' : 'show'} disabled={disable} onClick={loginUser}>Sign in</button>
+      <button onClick={signOut}>clear local storage</button>
+      </div>
+    </div>
+  </div>
+  )
+}
+
+export default LoginPage

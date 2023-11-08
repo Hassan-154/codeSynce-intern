@@ -6,7 +6,7 @@
 -today task 2*
 - difference between argument and parameter also a default parameter
   .parameter
-   .parameter is a variable in function / also when function declare the argument also declare
+   .parameter is a variable in function / also when function declare the parameter also declare
   .argument
    .arumment is data or value that delcare when function is called
   .what if paramter is undefined?
@@ -43,13 +43,17 @@
   .This one has been developed mainly to iterate over the properties of an object. 
 - for of
 - main differnce
-  .The for...in statement iterates over the enumerable string properties
+  .The for...in statement iterates over the enumerable string properties / It iterates over the keys or property names, not the values.
   .for...of statement iterates over values that the iterable object defines to be iterated over.
 - broswer API
   .application programming interface
-  .set of protocol and defination which connect two software.
-  .set of instruction that help computer to talk
+  .set of instruction protocol and defination which connect two software.
   .API make easy for one program to use the feature of another program.
+  .api requst made to server.
+  .the a respond resturn to app
+   .diagram 
+   .mobile, internet, api, server, database
+  
   
 
 
